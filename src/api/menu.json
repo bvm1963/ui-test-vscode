@@ -1,0 +1,134 @@
+﻿[
+	{
+		"Id": 1,
+		"ParentID": 0,
+		"MenuName": "agGrid",
+		"MenuCaption": "ag-Grid",
+		"PageRoute": "",
+		"Icon": "",
+		"MainMenuID": 0,
+		"Click": "",
+		"ItemTypeInt": 0
+	},
+	{
+		"Id": 2,
+		"ParentID": 0,
+		"MenuName": "DevExtreme",
+		"MenuCaption": "DevExtreme",
+		"PageRoute": "",
+		"Icon": "",
+		"MainMenuID": 0,
+		"Click": "",
+		"ItemTypeInt": 0
+	},
+	{
+		"Id": 3,
+		"ParentID": 0,
+		"MenuName": "Syncfusion",
+		"MenuCaption": "Syncfusion",
+		"PageRoute": "",
+		"Icon": "",
+		"MainMenuID": 0,
+		"Click": "",
+		"ItemTypeInt": 0
+	},
+	{
+		"Id": 4,
+		"ParentID": 1,
+		"MenuName": "ag-grid",
+		"MenuCaption": "ag-grid",
+		"PageRoute": "/main/ag-grid",
+		"Icon": "",
+		"MainMenuID": 4,
+		"Click": "",
+		"ItemTypeInt": 1
+	},
+	{
+		"Id": 5,
+		"ParentID": 2,
+		"MenuName": "dx-data-grid",
+		"MenuCaption": "dx-data-grid",
+		"PageRoute": "/main/dx-data-grid",
+		"Icon": "",
+		"MainMenuID": 5,
+		"Click": "",
+		"ItemTypeInt": 1
+	},
+	{
+		"Id": 6,
+		"ParentID": 3,
+		"MenuName": "ej-grid",
+		"MenuCaption": "ej-grid",
+		"PageRoute": "/main/ej-grid",
+		"Icon": "",
+		"MainMenuID": 6,
+		"Click": "",
+		"ItemTypeInt": 1
+	},
+	{
+		"Id": 7,
+		"ParentID": 2,
+		"MenuName": "dx-drop-down-box",
+		"MenuCaption": "dx-drop-down-box",
+		"PageRoute": "/main/dx-drop-down-box",
+		"Icon": "",
+		"MainMenuID": 7,
+		"Click": "",
+		"ItemTypeInt": 1
+	},
+	{
+		"Id": 8,
+		"ParentID": 3,
+		"MenuName": "ej-message-okno",
+		"MenuCaption": "ej-message-okno",
+		"PageRoute": "/main/ej-message-okno",
+		"Icon": "",
+		"MainMenuID": 8,
+		"Click": "",
+		"ItemTypeInt": 1
+	},
+	{
+		"Id": 9,
+		"ParentID": 3,
+		"MenuName": "ej-message-ok",
+		"MenuCaption": "ej-message-ok",
+		"PageRoute": "/main/ej-message-ok",
+		"Icon": "",
+		"MainMenuID": 9,
+		"Click": "",
+		"ItemTypeInt": 1
+	},
+	{
+		"Id": 10,
+		"ParentID": 0,
+		"MenuName": "Examples",
+		"MenuCaption": "Examples",
+		"PageRoute": "",
+		"Icon": "",
+		"MainMenuID": 0,
+		"Click": "",
+		"ItemTypeInt": 0
+	},
+	{
+		"Id": 11,
+		"ParentID": 10,
+		"MenuName": "new-document",
+		"MenuCaption": "new-document",
+		"PageRoute": "/main/new-document",
+		"Icon": "",
+		"MainMenuID": 11,
+		"Click": "",
+		"ItemTypeInt": 1
+	},
+	{
+		"Id": 12,
+		"ParentID": 0,
+		"MenuName": "About",
+		"MenuCaption": "About",
+		"PageRoute": "/main/about",
+		"Icon": "",
+		"MainMenuID": 12,
+		"Click": "",
+		"ItemTypeInt": 1
+	}
+]

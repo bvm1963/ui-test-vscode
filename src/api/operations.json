@@ -1,0 +1,74 @@
+﻿[
+    {
+        "Id": 2,
+        "OperationsName": "Operation_77001",
+        "OperationsCaption": "Operation_77001",
+        "OperationsCode": "77001"
+    },
+    {
+        "Id": 3,
+        "OperationsName": "Operation_77002",
+        "OperationsCaption": "Operation_77002",
+        "OperationsCode": "77002"
+    },
+    {
+        "Id": 4,
+        "OperationsName": "Operation_77003",
+        "OperationsCaption": "Operation_77003",
+        "OperationsCode": "77003"
+    },
+    {
+        "Id": 5,
+        "OperationsName": "Operation_77004",
+        "OperationsCaption": "Operation_77004",
+        "OperationsCode": "77004"
+    },
+    {
+        "Id": 6,
+        "OperationsName": "Operation_77005",
+        "OperationsCaption": "Operation_77005",
+        "OperationsCode": "77005"
+    },
+    {
+        "Id": 7,
+        "OperationsName": "Operation_77006",
+        "OperationsCaption": "Operation_77006",
+        "OperationsCode": "77006"
+    },
+    {
+        "Id": 8,
+        "OperationsName": "Operation_77007",
+        "OperationsCaption": "Operation_77007",
+        "OperationsCode": "77007"
+    },
+    {
+        "Id": 9,
+        "OperationsName": "Operation_77008",
+        "OperationsCaption": "Operation_77008",
+        "OperationsCode": "77008"
+    },
+    {
+        "Id": 10,
+        "OperationsName": "Operation_77009",
+        "OperationsCaption": "Operation_77009",
+        "OperationsCode": "77009"
+    },
+    {
+        "Id": 15,
+        "OperationsName": "Operation_77010",
+        "OperationsCaption": "Operation_77010",
+        "OperationsCode": "77010"
+    },
+    {
+        "Id": 16,
+        "OperationsName": "Operation_77011",
+        "OperationsCaption": "Operation_77011",
+        "OperationsCode": "77011"
+    },
+    {
+        "Id": 17,
+        "OperationsName": "Operation_77012",
+        "OperationsCaption": "Operation_77012",
+        "OperationsCode": "77012"
+    }
+]

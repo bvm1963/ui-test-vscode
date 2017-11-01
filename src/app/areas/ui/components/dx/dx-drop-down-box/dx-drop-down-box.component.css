@@ -1,0 +1,32 @@
+.dx-datagrid-rowsview .dx-row {
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	font-size: 10pt;
+	height: 14px;
+}
+
+.dx-datagrid .dx-row > td {
+	padding: 0px;
+	padding-left: 4px;
+}
+
+.dx-datagrid-headers .dx-row {
+	color: white;
+	background: grey;
+}
+
+.dx-datagrid-focus-overlay {
+	border: 1px solid green;
+}
+
+.dx-datagrid {
+	background-color: white;
+}
+
+.dx-scrollable-container {
+	max-height: 192px;
+}
+
+.dx-popup-content {
+	padding: 2px;
+}

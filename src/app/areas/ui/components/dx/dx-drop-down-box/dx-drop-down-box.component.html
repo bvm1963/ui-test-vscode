@@ -1,0 +1,35 @@
+﻿<div>
+	<dx-drop-down-box #dropDownBox
+										id="dropDownBox"
+										[(value)]="gridBoxValue"
+										valueExpr="Id"
+										[displayExpr]="gridBox_displayExpr"
+										placeholder="SELECT OPERATION"
+										[showClearButton]="true"
+										[dataSource]="dsDxDropDownBox"
+										[width]=300
+										[height]=30
+										(onOpened)="onOpened($event)"
+										(onClosed)="onClosed($event)">
+		<div *dxTemplate="let data of 'content'">
+			<dx-data-grid #dataGrid
+										id="dataGrid"
+										[dataSource]="dsDxDropDownBox"
+										[showRowLines]="true"
+										[wordWrapEnabled]="false"
+										[width]=auto
+										[height]=auto
+										(onContentReady)="onContentReady($event)"
+										(onSelectionChanged)="onSelectionChanged($event)"
+										(onRowPrepared)="onRowPrepared($event)"
+										(onRowClick)="onRowClick($event)"
+										(onCellPrepared)="onCellPrepared($event)"
+										(onCellClick)="onCellClick($event)"
+										(onKeyDown)="onKeyDown($event)">
+				<dxo-selection mode="single"></dxo-selection>
+				<dxi-column dataField="OperationsCaption" caption="Operation" [width]="250"></dxi-column>
+				<dxi-column dataField="OperationsCode" caption="Code" [width]="70" [allowEditing]="false"></dxi-column>
+			</dx-data-grid>
+		</div>
+	</dx-drop-down-box>
+</div>

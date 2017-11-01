@@ -1,0 +1,26 @@
+﻿<div class="row">
+	<div class="col-md-9">
+		<ej-grid #grid cssClass="standart" 
+						[dataSource]="dsEjGridData" 
+						allowPaging="true" 
+						[pageSettings.pageSize]="pagesize"
+						allowSelection="true" 
+						[selectionSettings]="selectionMode"
+						(cellSelecting)="onCellSelecting($event)"
+						(cellSelected)="onCellSelected($event)"
+						(actionBegin)="onActionBegin($event)"
+						(actionComplete)="onActionComplete($event)">
+			<e-columns>
+				<e-column field="Id" [isPrimaryKey]="true" headerTextAlign="center" headerText="ID" width="40" textAlign="right"></e-column>
+				<e-column field="NameOperation" headerTextAlign="center" headerText="Document" width="160" textAlign="left"></e-column>
+				<e-column field="NumberDocument" headerTextAlign="center" headerText="Document number" width="100" textAlign="left"></e-column>
+				<e-column field="DateDocument" headerTextAlign="center" headerText="Document date" width="70" textAlign="right"></e-column>
+				<e-column field="CodeOperation" headerTextAlign="center" headerText="Operation code" width="80" textAlign="right"></e-column>
+				<e-column field="UserName" headerTextAlign="center" headerText="User" width="80" textAlign="right"></e-column>
+				<e-column field="ID" headerTextAlign="center" headerText="UserID" width="40" textAlign="right"></e-column>
+				<e-column field="DateRecord" headerTextAlign="center" headerText="Recording date" width="120" textAlign="right"></e-column>
+			</e-columns>
+		</ej-grid>
+	</div>
+	<div class="col-md-3"></div>
+</div>

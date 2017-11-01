@@ -1,0 +1,29 @@
+﻿<div class="area-modal">
+	<div>
+		<button (click)="onClick($event)">Show message</button>
+	</div>
+	<div>
+		<ej-dialog #messageOkNo
+							 id="messageOkNo"
+							 title="Warning"
+							 [target]="target"
+							 [showOnInit]="showOnInit"
+							 [(enableResize)]="resize"
+							 [isResponsive]="responsive"
+							 [enableModal]="enablemodal"
+							 (close)="onClose($event)">
+
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="form-group">
+						{{message}}
+					</div>
+				</div>
+			</div>
+				<div class="panel-body">
+						<button id="ok" class="btn btn-primary btn-ok" (click)="onOK($event)">OK</button>
+						<button id="cancel" class="btn btn-default" (click)="onCancel($event)">Cancel</button>
+				</div>
+		</ej-dialog>
+	</div>
+</div>

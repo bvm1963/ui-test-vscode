@@ -1,0 +1,40 @@
+﻿<div>
+	<button (click)="onClick($event)">New document</button>
+</div>
+<div class="area-modal">
+	<ej-dialog #newDocument 
+		id="newDocument" 
+		title="New Document" 
+		[target]="target" 
+		[showOnInit]="showOnInit" 
+		[(enableResize)]="resize"
+		[isResponsive]="responsive" 
+		[enableModal]="enablemodal" 
+		(close)="onClose($event)">
+
+		<div class="alert alert-danger" role="alert" *ngIf="inputError">
+			<strong>Warning:</strong> All fields are required</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="form-group">
+					<app-dx-drop-down-box #popupOperations id="popupOperations">
+					</app-dx-drop-down-box>
+				</div>
+				<div class="form-group">
+					<input type="text" 
+						ej-datepicker 
+						#dateDocument 
+						id="dateDocument" 
+						[locale]='locale' 
+						[height]=30 
+						[(ngModel)]="initDate" />
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary btn-ok" type="submit" (click)="onOK($event)">Save</button>
+			<button class="btn btn-default" type="submit" (click)="onCancel($event)">Cancel</button>
+		</div>
+	</ej-dialog>
+</div>

@@ -1,0 +1,17 @@
+﻿<dx-data-grid #dataGrid
+							id="dataGrid"
+							[dataSource]="dsDxData"
+							[showRowLines]="true"
+							[wordWrapEnabled]="false"
+							[height]="auto"
+							(onContentReady)="onContentReady($event)"
+							(onSelectionChanged)="onSelectionChanged($event)"
+							(onRowPrepared)="onRowPrepared($event)"
+							(onRowClick)="onRowClick($event)"
+							(onCellPrepared)="onCellPrepared($event)"
+							(onCellClick)="onCellClick($event)"
+							(onKeyDown)="onKeyDown($event)">
+	<dxo-selection mode="single"></dxo-selection>
+	<dxi-column dataField="OperationsCaption" caption="Operation" [width]="250"></dxi-column>
+	<dxi-column dataField="OperationsCode" caption="Code" [width]="70" [allowEditing]="false"></dxi-column>
+</dx-data-grid>
